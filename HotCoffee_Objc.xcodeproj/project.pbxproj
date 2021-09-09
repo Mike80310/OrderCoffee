@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2748B29326DCB27400C5AA36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748B29226DCB27400C5AA36 /* AppDelegate.m */; };
+		2748B29626DCB27400C5AA36 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748B29526DCB27400C5AA36 /* SceneDelegate.m */; };
+		2748B29C26DCB27400C5AA36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2748B29A26DCB27400C5AA36 /* Main.storyboard */; };
+		2748B29F26DCB27400C5AA36 /* HotCoffee_Objc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2748B29D26DCB27400C5AA36 /* HotCoffee_Objc.xcdatamodeld */; };
+		2748B2A126DCB27500C5AA36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2748B2A026DCB27500C5AA36 /* Assets.xcassets */; };
+		2748B2A426DCB27500C5AA36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2748B2A226DCB27500C5AA36 /* LaunchScreen.storyboard */; };
+		2748B2A726DCB27500C5AA36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748B2A626DCB27500C5AA36 /* main.m */; };
+		2748B2B126DCB27500C5AA36 /* HotCoffee_ObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748B2B026DCB27500C5AA36 /* HotCoffee_ObjcTests.m */; };
+		2748B2BC26DCB27500C5AA36 /* HotCoffee_ObjcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748B2BB26DCB27500C5AA36 /* HotCoffee_ObjcUITests.m */; };
+		2748B2CD26DCB2EC00C5AA36 /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748B2CC26DCB2EC00C5AA36 /* WebService.m */; };
+		2748B2D326DCCFB800C5AA36 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748B2D226DCCFB800C5AA36 /* Order.m */; };
+		2748B2D926DF34FE00C5AA36 /* OrderParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748B2D826DF34FE00C5AA36 /* OrderParser.m */; };
+		2748B2DC26DF55FC00C5AA36 /* OrderDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748B2DB26DF55FC00C5AA36 /* OrderDisplay.m */; };
+		2748B2DF26DF63C400C5AA36 /* OrderFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748B2DE26DF63C400C5AA36 /* OrderFetcher.m */; };
+		2748B2E626E06D5800C5AA36 /* OrderListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748B2E526E06D5800C5AA36 /* OrderListViewModel.m */; };
+		2748B2E926E07B6000C5AA36 /* AddCoffeeOrderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748B2E826E07B6000C5AA36 /* AddCoffeeOrderViewModel.m */; };
+		2748B2ED26E07DBA00C5AA36 /* OrdersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748B2EC26E07DBA00C5AA36 /* OrdersTableViewController.m */; };
+		2748B2F126E0851100C5AA36 /* OrdersTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748B2F026E0851000C5AA36 /* OrdersTableViewCell.m */; };
+		2748B2F426E0AB6500C5AA36 /* Coffee.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748B2F326E0AB6500C5AA36 /* Coffee.m */; };
+		2748B2F726E0D1CB00C5AA36 /* AddOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748B2F626E0D1CB00C5AA36 /* AddOrderViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2748B2AD26DCB27500C5AA36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2748B28626DCB27400C5AA36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2748B28D26DCB27400C5AA36;
+			remoteInfo = HotCoffee_Objc;
+		};
+		2748B2B826DCB27500C5AA36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2748B28626DCB27400C5AA36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2748B28D26DCB27400C5AA36;
+			remoteInfo = HotCoffee_Objc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2748B28E26DCB27400C5AA36 /* HotCoffee_Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotCoffee_Objc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2748B29126DCB27400C5AA36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2748B29226DCB27400C5AA36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2748B29426DCB27400C5AA36 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2748B29526DCB27400C5AA36 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2748B29B26DCB27400C5AA36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2748B29E26DCB27400C5AA36 /* HotCoffee_Objc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HotCoffee_Objc.xcdatamodel; sourceTree = "<group>"; };
+		2748B2A026DCB27500C5AA36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2748B2A326DCB27500C5AA36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2748B2A526DCB27500C5AA36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2748B2A626DCB27500C5AA36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2748B2AC26DCB27500C5AA36 /* HotCoffee_ObjcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotCoffee_ObjcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2748B2B026DCB27500C5AA36 /* HotCoffee_ObjcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotCoffee_ObjcTests.m; sourceTree = "<group>"; };
+		2748B2B226DCB27500C5AA36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2748B2B726DCB27500C5AA36 /* HotCoffee_ObjcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotCoffee_ObjcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2748B2BB26DCB27500C5AA36 /* HotCoffee_ObjcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotCoffee_ObjcUITests.m; sourceTree = "<group>"; };
+		2748B2BD26DCB27500C5AA36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2748B2CB26DCB2EC00C5AA36 /* WebService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebService.h; sourceTree = "<group>"; };
+		2748B2CC26DCB2EC00C5AA36 /* WebService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebService.m; sourceTree = "<group>"; };
+		2748B2CF26DCC9C400C5AA36 /* NetworkServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkServiceProtocol.h; sourceTree = "<group>"; };
+		2748B2D126DCCFB800C5AA36 /* Order.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		2748B2D226DCCFB800C5AA36 /* Order.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		2748B2D726DF34FE00C5AA36 /* OrderParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderParser.h; sourceTree = "<group>"; };
+		2748B2D826DF34FE00C5AA36 /* OrderParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderParser.m; sourceTree = "<group>"; };
+		2748B2DA26DF55FC00C5AA36 /* OrderDisplay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderDisplay.h; sourceTree = "<group>"; };
+		2748B2DB26DF55FC00C5AA36 /* OrderDisplay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderDisplay.m; sourceTree = "<group>"; };
+		2748B2DD26DF63C400C5AA36 /* OrderFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderFetcher.h; sourceTree = "<group>"; };
+		2748B2DE26DF63C400C5AA36 /* OrderFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderFetcher.m; sourceTree = "<group>"; };
+		2748B2E126DF67FE00C5AA36 /* OrderFetcherProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderFetcherProtocol.h; sourceTree = "<group>"; };
+		2748B2E226DF6A1700C5AA36 /* OrderParseProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderParseProtocol.h; sourceTree = "<group>"; };
+		2748B2E426E06D5800C5AA36 /* OrderListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderListViewModel.h; sourceTree = "<group>"; };
+		2748B2E526E06D5800C5AA36 /* OrderListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderListViewModel.m; sourceTree = "<group>"; };
+		2748B2E726E07B6000C5AA36 /* AddCoffeeOrderViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddCoffeeOrderViewModel.h; sourceTree = "<group>"; };
+		2748B2E826E07B6000C5AA36 /* AddCoffeeOrderViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddCoffeeOrderViewModel.m; sourceTree = "<group>"; };
+		2748B2EB26E07DBA00C5AA36 /* OrdersTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrdersTableViewController.h; sourceTree = "<group>"; };
+		2748B2EC26E07DBA00C5AA36 /* OrdersTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrdersTableViewController.m; sourceTree = "<group>"; };
+		2748B2EF26E0851000C5AA36 /* OrdersTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrdersTableViewCell.h; sourceTree = "<group>"; };
+		2748B2F026E0851000C5AA36 /* OrdersTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrdersTableViewCell.m; sourceTree = "<group>"; };
+		2748B2F226E0AB6500C5AA36 /* Coffee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Coffee.h; sourceTree = "<group>"; };
+		2748B2F326E0AB6500C5AA36 /* Coffee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coffee.m; sourceTree = "<group>"; };
+		2748B2F526E0D1CB00C5AA36 /* AddOrderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddOrderViewController.h; sourceTree = "<group>"; };
+		2748B2F626E0D1CB00C5AA36 /* AddOrderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddOrderViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2748B28B26DCB27400C5AA36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2748B2A926DCB27500C5AA36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2748B2B426DCB27500C5AA36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2748B28526DCB27400C5AA36 = {
+			isa = PBXGroup;
+			children = (
+				2748B29026DCB27400C5AA36 /* HotCoffee_Objc */,
+				2748B2AF26DCB27500C5AA36 /* HotCoffee_ObjcTests */,
+				2748B2BA26DCB27500C5AA36 /* HotCoffee_ObjcUITests */,
+				2748B28F26DCB27400C5AA36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2748B28F26DCB27400C5AA36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2748B28E26DCB27400C5AA36 /* HotCoffee_Objc.app */,
+				2748B2AC26DCB27500C5AA36 /* HotCoffee_ObjcTests.xctest */,
+				2748B2B726DCB27500C5AA36 /* HotCoffee_ObjcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2748B29026DCB27400C5AA36 /* HotCoffee_Objc */ = {
+			isa = PBXGroup;
+			children = (
+				2748B2EE26E084D800C5AA36 /* Views */,
+				2748B2EA26E07D8D00C5AA36 /* Controllers */,
+				2748B2E326E06B8900C5AA36 /* ViewModels */,
+				2748B2D026DCCF9600C5AA36 /* Models */,
+				2748B2C926DCB29100C5AA36 /* Services */,
+				2748B29126DCB27400C5AA36 /* AppDelegate.h */,
+				2748B29226DCB27400C5AA36 /* AppDelegate.m */,
+				2748B29426DCB27400C5AA36 /* SceneDelegate.h */,
+				2748B29526DCB27400C5AA36 /* SceneDelegate.m */,
+				2748B29A26DCB27400C5AA36 /* Main.storyboard */,
+				2748B2A026DCB27500C5AA36 /* Assets.xcassets */,
+				2748B2A226DCB27500C5AA36 /* LaunchScreen.storyboard */,
+				2748B2A526DCB27500C5AA36 /* Info.plist */,
+				2748B2A626DCB27500C5AA36 /* main.m */,
+				2748B29D26DCB27400C5AA36 /* HotCoffee_Objc.xcdatamodeld */,
+			);
+			path = HotCoffee_Objc;
+			sourceTree = "<group>";
+		};
+		2748B2AF26DCB27500C5AA36 /* HotCoffee_ObjcTests */ = {
+			isa = PBXGroup;
+			children = (
+				2748B2B026DCB27500C5AA36 /* HotCoffee_ObjcTests.m */,
+				2748B2B226DCB27500C5AA36 /* Info.plist */,
+			);
+			path = HotCoffee_ObjcTests;
+			sourceTree = "<group>";
+		};
+		2748B2BA26DCB27500C5AA36 /* HotCoffee_ObjcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2748B2BB26DCB27500C5AA36 /* HotCoffee_ObjcUITests.m */,
+				2748B2BD26DCB27500C5AA36 /* Info.plist */,
+			);
+			path = HotCoffee_ObjcUITests;
+			sourceTree = "<group>";
+		};
+		2748B2C926DCB29100C5AA36 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2748B2CF26DCC9C400C5AA36 /* NetworkServiceProtocol.h */,
+				2748B2CB26DCB2EC00C5AA36 /* WebService.h */,
+				2748B2CC26DCB2EC00C5AA36 /* WebService.m */,
+				2748B2D726DF34FE00C5AA36 /* OrderParser.h */,
+				2748B2D826DF34FE00C5AA36 /* OrderParser.m */,
+				2748B2DD26DF63C400C5AA36 /* OrderFetcher.h */,
+				2748B2DE26DF63C400C5AA36 /* OrderFetcher.m */,
+				2748B2E126DF67FE00C5AA36 /* OrderFetcherProtocol.h */,
+				2748B2E226DF6A1700C5AA36 /* OrderParseProtocol.h */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2748B2D026DCCF9600C5AA36 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2748B2D126DCCFB800C5AA36 /* Order.h */,
+				2748B2D226DCCFB800C5AA36 /* Order.m */,
+				2748B2F226E0AB6500C5AA36 /* Coffee.h */,
+				2748B2F326E0AB6500C5AA36 /* Coffee.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2748B2E326E06B8900C5AA36 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2748B2DA26DF55FC00C5AA36 /* OrderDisplay.h */,
+				2748B2DB26DF55FC00C5AA36 /* OrderDisplay.m */,
+				2748B2E426E06D5800C5AA36 /* OrderListViewModel.h */,
+				2748B2E526E06D5800C5AA36 /* OrderListViewModel.m */,
+				2748B2E726E07B6000C5AA36 /* AddCoffeeOrderViewModel.h */,
+				2748B2E826E07B6000C5AA36 /* AddCoffeeOrderViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2748B2EA26E07D8D00C5AA36 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2748B2EB26E07DBA00C5AA36 /* OrdersTableViewController.h */,
+				2748B2EC26E07DBA00C5AA36 /* OrdersTableViewController.m */,
+				2748B2F526E0D1CB00C5AA36 /* AddOrderViewController.h */,
+				2748B2F626E0D1CB00C5AA36 /* AddOrderViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2748B2EE26E084D800C5AA36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2748B2EF26E0851000C5AA36 /* OrdersTableViewCell.h */,
+				2748B2F026E0851000C5AA36 /* OrdersTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2748B28D26DCB27400C5AA36 /* HotCoffee_Objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2748B2C026DCB27500C5AA36 /* Build configuration list for PBXNativeTarget "HotCoffee_Objc" */;
+			buildPhases = (
+				2748B28A26DCB27400C5AA36 /* Sources */,
+				2748B28B26DCB27400C5AA36 /* Frameworks */,
+				2748B28C26DCB27400C5AA36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotCoffee_Objc;
+			productName = HotCoffee_Objc;
+			productReference = 2748B28E26DCB27400C5AA36 /* HotCoffee_Objc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2748B2AB26DCB27500C5AA36 /* HotCoffee_ObjcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2748B2C326DCB27500C5AA36 /* Build configuration list for PBXNativeTarget "HotCoffee_ObjcTests" */;
+			buildPhases = (
+				2748B2A826DCB27500C5AA36 /* Sources */,
+				2748B2A926DCB27500C5AA36 /* Frameworks */,
+				2748B2AA26DCB27500C5AA36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2748B2AE26DCB27500C5AA36 /* PBXTargetDependency */,
+			);
+			name = HotCoffee_ObjcTests;
+			productName = HotCoffee_ObjcTests;
+			productReference = 2748B2AC26DCB27500C5AA36 /* HotCoffee_ObjcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2748B2B626DCB27500C5AA36 /* HotCoffee_ObjcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2748B2C626DCB27500C5AA36 /* Build configuration list for PBXNativeTarget "HotCoffee_ObjcUITests" */;
+			buildPhases = (
+				2748B2B326DCB27500C5AA36 /* Sources */,
+				2748B2B426DCB27500C5AA36 /* Frameworks */,
+				2748B2B526DCB27500C5AA36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2748B2B926DCB27500C5AA36 /* PBXTargetDependency */,
+			);
+			name = HotCoffee_ObjcUITests;
+			productName = HotCoffee_ObjcUITests;
+			productReference = 2748B2B726DCB27500C5AA36 /* HotCoffee_ObjcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2748B28626DCB27400C5AA36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2748B28D26DCB27400C5AA36 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					2748B2AB26DCB27500C5AA36 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 2748B28D26DCB27400C5AA36;
+					};
+					2748B2B626DCB27500C5AA36 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 2748B28D26DCB27400C5AA36;
+					};
+				};
+			};
+			buildConfigurationList = 2748B28926DCB27400C5AA36 /* Build configuration list for PBXProject "HotCoffee_Objc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2748B28526DCB27400C5AA36;
+			productRefGroup = 2748B28F26DCB27400C5AA36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2748B28D26DCB27400C5AA36 /* HotCoffee_Objc */,
+				2748B2AB26DCB27500C5AA36 /* HotCoffee_ObjcTests */,
+				2748B2B626DCB27500C5AA36 /* HotCoffee_ObjcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2748B28C26DCB27400C5AA36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2748B2A426DCB27500C5AA36 /* LaunchScreen.storyboard in Resources */,
+				2748B2A126DCB27500C5AA36 /* Assets.xcassets in Resources */,
+				2748B29C26DCB27400C5AA36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2748B2AA26DCB27500C5AA36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2748B2B526DCB27500C5AA36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2748B28A26DCB27400C5AA36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2748B2F126E0851100C5AA36 /* OrdersTableViewCell.m in Sources */,
+				2748B2ED26E07DBA00C5AA36 /* OrdersTableViewController.m in Sources */,
+				2748B2CD26DCB2EC00C5AA36 /* WebService.m in Sources */,
+				2748B2A726DCB27500C5AA36 /* main.m in Sources */,
+				2748B29326DCB27400C5AA36 /* AppDelegate.m in Sources */,
+				2748B2DF26DF63C400C5AA36 /* OrderFetcher.m in Sources */,
+				2748B2D326DCCFB800C5AA36 /* Order.m in Sources */,
+				2748B2DC26DF55FC00C5AA36 /* OrderDisplay.m in Sources */,
+				2748B29626DCB27400C5AA36 /* SceneDelegate.m in Sources */,
+				2748B2F426E0AB6500C5AA36 /* Coffee.m in Sources */,
+				2748B2D926DF34FE00C5AA36 /* OrderParser.m in Sources */,
+				2748B2E926E07B6000C5AA36 /* AddCoffeeOrderViewModel.m in Sources */,
+				2748B2E626E06D5800C5AA36 /* OrderListViewModel.m in Sources */,
+				2748B29F26DCB27400C5AA36 /* HotCoffee_Objc.xcdatamodeld in Sources */,
+				2748B2F726E0D1CB00C5AA36 /* AddOrderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2748B2A826DCB27500C5AA36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2748B2B126DCB27500C5AA36 /* HotCoffee_ObjcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2748B2B326DCB27500C5AA36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2748B2BC26DCB27500C5AA36 /* HotCoffee_ObjcUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2748B2AE26DCB27500C5AA36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2748B28D26DCB27400C5AA36 /* HotCoffee_Objc */;
+			targetProxy = 2748B2AD26DCB27500C5AA36 /* PBXContainerItemProxy */;
+		};
+		2748B2B926DCB27500C5AA36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2748B28D26DCB27400C5AA36 /* HotCoffee_Objc */;
+			targetProxy = 2748B2B826DCB27500C5AA36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2748B29A26DCB27400C5AA36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2748B29B26DCB27400C5AA36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2748B2A226DCB27500C5AA36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2748B2A326DCB27500C5AA36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2748B2BE26DCB27500C5AA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2748B2BF26DCB27500C5AA36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2748B2C126DCB27500C5AA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D86788L2GJ;
+				INFOPLIST_FILE = HotCoffee_Objc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikeli.company.HotCoffee-Objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2748B2C226DCB27500C5AA36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D86788L2GJ;
+				INFOPLIST_FILE = HotCoffee_Objc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikeli.company.HotCoffee-Objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2748B2C426DCB27500C5AA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HotCoffee_ObjcTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikeli.company.HotCoffee-ObjcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotCoffee_Objc.app/HotCoffee_Objc";
+			};
+			name = Debug;
+		};
+		2748B2C526DCB27500C5AA36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HotCoffee_ObjcTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikeli.company.HotCoffee-ObjcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotCoffee_Objc.app/HotCoffee_Objc";
+			};
+			name = Release;
+		};
+		2748B2C726DCB27500C5AA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HotCoffee_ObjcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikeli.company.HotCoffee-ObjcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HotCoffee_Objc;
+			};
+			name = Debug;
+		};
+		2748B2C826DCB27500C5AA36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HotCoffee_ObjcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikeli.company.HotCoffee-ObjcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HotCoffee_Objc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2748B28926DCB27400C5AA36 /* Build configuration list for PBXProject "HotCoffee_Objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2748B2BE26DCB27500C5AA36 /* Debug */,
+				2748B2BF26DCB27500C5AA36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2748B2C026DCB27500C5AA36 /* Build configuration list for PBXNativeTarget "HotCoffee_Objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2748B2C126DCB27500C5AA36 /* Debug */,
+				2748B2C226DCB27500C5AA36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2748B2C326DCB27500C5AA36 /* Build configuration list for PBXNativeTarget "HotCoffee_ObjcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2748B2C426DCB27500C5AA36 /* Debug */,
+				2748B2C526DCB27500C5AA36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2748B2C626DCB27500C5AA36 /* Build configuration list for PBXNativeTarget "HotCoffee_ObjcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2748B2C726DCB27500C5AA36 /* Debug */,
+				2748B2C826DCB27500C5AA36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2748B29D26DCB27400C5AA36 /* HotCoffee_Objc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2748B29E26DCB27400C5AA36 /* HotCoffee_Objc.xcdatamodel */,
+			);
+			currentVersion = 2748B29E26DCB27400C5AA36 /* HotCoffee_Objc.xcdatamodel */;
+			path = HotCoffee_Objc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2748B28626DCB27400C5AA36 /* Project object */;
+}
