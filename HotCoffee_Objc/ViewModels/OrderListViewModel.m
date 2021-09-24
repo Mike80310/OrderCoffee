@@ -21,7 +21,7 @@
 @implementation OrderListViewModel
 
 - (instancetype)init {
-    self = [super self];
+    self = [super init];
     if (self) {
         self.orders = [[NSMutableArray alloc] init];
         self.fetcher = [[OrderFetcher alloc] initWithClient:OrderFetch Client:[[WebService alloc] init] Parser:[[OrderParser alloc] init]];

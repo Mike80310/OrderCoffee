@@ -26,7 +26,18 @@
     // Do any additional setup after loading the view.
     
     [self setUpUI];
+    [self setConfiguration];
+}
+
+- (void)setConfiguration {
     
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(viewTapped:)];
+    tap.cancelsTouchesInView = NO;
+    [self.view addGestureRecognizer:tap];
+}
+
+-(void)viewTapped:(UITapGestureRecognizer*)tap1{
+    [self.view endEditing:YES];
 }
 
 - (void)setUpUI {
@@ -45,6 +56,13 @@
     [_coffeeSizesSegmentedControl.topAnchor constraintEqualToAnchor:self.coffeeTableView.bottomAnchor constant:20].active = YES;
     
 }
+
+#pragma mark - UITextField Delegate
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    return [textField resignFirstResponder];
+}
+
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
